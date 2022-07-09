@@ -12,10 +12,9 @@ import org.junit.runner.RunWith;
 
         glue     = {"com/guru99/demo/stepDefinitions","com/guru99/demo/hooks"},
 
-        plugin = {"pretty", "json:target/report.json","html:target/htmlReport/report.html",
-                "html:target/cucumber-reports"},
-        monochrome = true
-)
+        plugin = {"pretty", "json:target/report.json",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+        monochrome = true)
 
 
 

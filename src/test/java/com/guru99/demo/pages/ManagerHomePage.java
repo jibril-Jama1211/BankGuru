@@ -29,11 +29,13 @@ public class ManagerHomePage extends BasePage {
 
 
 
+
+
+
     public void logInResult (String result)
     {
          String resultText = loginResult.getText();
-
-       Assert.assertTrue(resultText.contains("Manger Id : mngr415866"));
+         Assert.assertTrue(resultText.contains("Manger Id : mngr415866"));
 
         System.out.println("This the login message" + resultText);
 
