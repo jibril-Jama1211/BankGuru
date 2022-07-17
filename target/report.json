@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-09T16:43:55.462Z",
+        "start_timestamp": "2022-07-12T16:40:43.499Z",
         "before": [
           {
             "result": {
-              "duration": 2964000000,
+              "duration": 5811000000,
               "status": "passed"
             },
             "match": {
@@ -32,7 +32,7 @@
               "ScreenShot attached"
             ],
             "result": {
-              "duration": 3580000000,
+              "duration": 2155000000,
               "status": "passed"
             },
             "match": {
@@ -45,7 +45,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8797000000,
+              "duration": 2819000000,
               "status": "passed"
             },
             "line": 8,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 10211000000,
+              "duration": 10183000000,
               "status": "passed"
             },
             "line": 9,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 326000000,
+              "duration": 356000000,
               "status": "passed"
             },
             "line": 10,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 119000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 11,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 1050000000,
+              "duration": 1004000000,
               "status": "passed"
             },
             "line": 12,
@@ -117,8 +117,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}\n  (Session info: chrome\u003d103.0.5060.114): User or Password is not valid\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Abdis-Air\u0027, ip: \u0027fe80:0:0:0:14a6:95ab:3651:1ca%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/h_/w6btvgwn1dg...}, goog:chromeOptions: {debuggerAddress: localhost:53485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b6b8918ddb8399791abb2d4146962ed\n*** Element info: {Using\u003dcss selector, value\u003dbody \u003e table \u003e tbody \u003e tr \u003e td \u003e table \u003e tbody \u003e tr.heading3 \u003e td}\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy20.getText(Unknown Source)\n\tat com.guru99.demo.pages.ManagerHomePage.logInResult(ManagerHomePage.java:37)\n\tat com.guru99.demo.stepDefinitions.ManagerLoginStepDef.manager_is_successfully_logged_in_and_manager_Id_is_displayed_as(ManagerLoginStepDef.java:56)\n\tat ✽.manager is successfully logged in and manager Id is displayed as \"Manger Id : mngr415866\"(file:///Users/abdieid/Desktop/SeleniumProjects/bankDemoPOM/src/test/java/com/guru99/demo/features/managerLogin.feature:13)\n",
-              "duration": 57000000,
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}\n  (Session info: chrome\u003d103.0.5060.114): User or Password is not valid\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Abdis-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:86:a6d0:d5a:9aee%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/h_/w6btvgwn1dg...}, goog:chromeOptions: {debuggerAddress: localhost:52840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 05e33e6c022de6c5282cf02ba55debc8\n*** Element info: {Using\u003dcss selector, value\u003dbody \u003e table \u003e tbody \u003e tr \u003e td \u003e table \u003e tbody \u003e tr.heading3 \u003e td}\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy20.getText(Unknown Source)\n\tat com.guru99.demo.pages.ManagerHomePage.logInResult(ManagerHomePage.java:37)\n\tat com.guru99.demo.stepDefinitions.ManagerLoginStepDef.manager_is_successfully_logged_in_and_manager_Id_is_displayed_as(ManagerLoginStepDef.java:56)\n\tat ✽.manager is successfully logged in and manager Id is displayed as \"Manger Id : mngr415866\"(file:///Users/abdieid/Desktop/SeleniumProjects/bankDemoPOM/src/test/java/com/guru99/demo/features/managerLogin.feature:13)\n",
+              "duration": 54000000,
               "status": "failed"
             },
             "line": 13,

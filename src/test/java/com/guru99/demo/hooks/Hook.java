@@ -23,10 +23,9 @@ public class Hook extends BrowserManager {
         launchBrowser("Chrome");
     }
 
-// single screen shot and if you get more then one error it will give u the last one
 
     @After
-    public void af(Scenario scenario) throws IOException, InterruptedException {
+    public void takeScreenShot(Scenario scenario) {
         try {
 
             if (scenario.isFailed()) {
@@ -34,29 +33,17 @@ public class Hook extends BrowserManager {
                 byte[] fileContent = FileUtils.readFileToByteArray(src);
                 scenario.attach(fileContent, "image/png", scenario.getName());
                 scenario.log("ScreenShot attached");
-
             }
         }
 
         catch (Exception e) {
             e.printStackTrace();
         }
+
+        System.out.println("I'm closing the browser");
+        closeBrowser();
+
     }
-
-
-// this will give a screen shot of every step regardless of passing or failing
-
-//    @AfterStep
-//    public void as(Scenario scenario) throws IOException, InterruptedException
-//    {
-//        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//        byte[] fileContent = FileUtils.readFileToByteArray(src);
-//
-//        scenario.attach(fileContent, "image/png", "screenshot name");
-//    }
-//
-//        //closeBrowser();
-
 
 
 
