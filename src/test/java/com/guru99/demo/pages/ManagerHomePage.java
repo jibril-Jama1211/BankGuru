@@ -27,11 +27,6 @@ public class ManagerHomePage extends BasePage {
 
 
 
-
-
-
-
-
     public void logInResult (String result)
     {
          String resultText = loginResult.getText();
