@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        features = {"src/test/java/com/guru99/demo/features"},
+        features = {"src/test/java/com/guru99/demo/features/userAuthentication.feature"},
 
         glue     = {"com/guru99/demo/stepDefinitions","com/guru99/demo/hooks"},
 
@@ -18,6 +18,6 @@ import org.junit.runner.RunWith;
 
 
 
-public class LoginTestRunner {
+public class AuthenticationRunner {
 
 }

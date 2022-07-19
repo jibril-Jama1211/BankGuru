@@ -8,7 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
 
-public class ManagerLoginStepDef extends BasePage {
+public class UserAuthenticationStepDef extends BasePage {
 
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
 
@@ -28,16 +28,16 @@ public class ManagerLoginStepDef extends BasePage {
 
     }
 
-    @When("I enter valid userId as {string}")
-    public void i_enter_valid_userId_as(String userId) throws Exception
+    @When("I enter a valid userId {string}")
+    public void i_enter_a_valid_user_id(String userId) throws Exception
     {
 
         homePage.enterUserId(userId);
 
     }
 
-    @When("I enter valid password as {string}")
-    public void i_enter_valid_password_as(String password) throws Exception {
+    @When("I enter a valid password {string}")
+    public void i_enter_a_valid_password(String password) throws Exception {
 
         homePage.enterPassword(password);
 
