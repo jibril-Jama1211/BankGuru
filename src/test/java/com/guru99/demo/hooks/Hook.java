@@ -41,7 +41,7 @@ public class Hook extends BrowserManager {
         }
 
         System.out.println("I'm closing the browser");
-        closeBrowser();
+       // closeBrowser();
 
     }
 
